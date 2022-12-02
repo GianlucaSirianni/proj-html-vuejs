@@ -35,7 +35,7 @@ export default {
 
 header {
   width: 100%;
-  height: 1000px;
+  height: 950px;
   background-image: url(../../assets/img/hero-header-bakery.jpg);
   background-size: cover;
   background-repeat: no-repeat;

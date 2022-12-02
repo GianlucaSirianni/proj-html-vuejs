@@ -42,7 +42,6 @@
     width: 25%;
     padding: 2rem;
     margin-left: 4rem;
-
 }
 
 span{
@@ -57,6 +56,11 @@ span{
     color: green;
     position: absolute;
     top: 5px;
+}
+
+.fa-folder{
+    color: #282d2c;
+    font-size: 1.4rem;
 }
 
 
@@ -89,6 +93,8 @@ span{
 .sale{
     color: green;
     margin-left: 7px;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 p{
