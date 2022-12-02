@@ -4,7 +4,6 @@
         <div class="aContainer">
             <a href="">{{ item.name }}</a>
         </div>
-
     </nav>
   </div>
 </template>
@@ -17,10 +16,8 @@ export default {
     }
 };
 
-
-
-
 </script>
+
 
 <style lang="scss" scoped>
 
@@ -31,13 +28,10 @@ a{
 
 .aContainer{
     padding-bottom: 0.5rem;
-
-    
-
 }
 
 .aContainer:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #5b2ca2;
 }
 
 
