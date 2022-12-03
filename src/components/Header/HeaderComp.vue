@@ -29,6 +29,7 @@ export default {
     JumboTron,
   },
 };
+
 </script>
 
 <style lang="scss" scoped>

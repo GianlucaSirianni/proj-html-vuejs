@@ -3,9 +3,11 @@
 
     <HeaderComp :itemsNav="navItems"/>
 
-    <MainComp />
+    <MainComp :wedPic="weddingPic"/>
 
     <FooterComp />
+
+    
 
   </div>
 </template>
@@ -58,8 +60,29 @@ export default {
             name: 'MY ACCOUNT',
             url: 'www.google.com'
           },
-        ]
+        ],
+
+          weddingPic: [
+            {
+              img: 'corporate-bg.jpg',
+              imgx: 'corporate-hover-bg.jpg',
+              smallTxt: 'International Bakery',
+              bigTxt: 'Corporate Events',
+              btnTxt: 'Explore More'
+            },
+
+            {
+              img: 'wedding-bg.jpg',
+              imgx: 'wedding-hover-bg.jpg',
+              smallTxt: 'Private Dining Hall',
+              bigTxt: 'Wedding & Parties',
+              btnTxt: 'Explore More'
+            }
+          ]
+
       }
+
+
     },
 
 

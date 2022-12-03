@@ -11,12 +11,37 @@
       </div>
       <div class="prodSlider">
         <div class="leftSlider">
-            <img src="../../assets/img/choco-chip-cookies-768x979.jpg" alt="">
-            <div class="abL"> <strong>&lt;</strong> </div>
+          <div class="bgBlack">
+            <img src="../../assets/img/choco-chip-cookies-768x979.jpg" alt="" />
+          </div>
+
+          <div class="txtCnt">
+            <div class="centerIt">
+              <h6>Choco Chip Cookies</h6>
+              <p>Cookies, Pastries</p>
+              <h6>$18.00 - $32.00</h6>
+            </div>
+          </div>
+
+          <div class="abL"><strong>&lt;</strong></div>
         </div>
         <div class="rightSlider">
-            <img src="../../assets/img/strawberry-jam-cookies-768x979.jpg" alt="">
-            <div class="abR"> <strong>&gt;</strong> </div>
+          <div class="bgBlack">
+            <img
+              src="../../assets/img/strawberry-jam-cookies-768x979.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="txtCnt">
+            <div class="centerIt">
+              <h6>Strawberry Jam Cookies</h6>
+              <p>Cookies, Pastries</p>
+              <h6>$36.00 - $60.00</h6>
+            </div>
+          </div>
+
+          <div class="abR"><strong>&gt;</strong></div>
         </div>
       </div>
     </div>
@@ -30,77 +55,108 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.ourProducts{
-    width: 100%;
-    margin-top: 6rem;
-    margin-bottom: 10rem;
-}
-
-.ourProductsContainer{
-    width: 90%;
-    margin: auto;
-    display: flex;
+.bgBlack {
+  position: relative;
 }
 
 
 
-.prodSlider{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+.txtCnt {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  top: 45%;
+  left: 35%;
+  background-color: black;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.prodDescription{
-    width: 30%;
-    
+.leftSlider:hover .txtCnt{
+  display: flex;
+}
+
+.rightSlider:hover .txtCnt{
+  display: flex;
+}
+
+
+
+.ourProducts {
+  width: 100%;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+
+.ourProductsContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.prodSlider {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.prodDescription {
+  width: 30%;
 }
 
 .fresh {
   font-size: 0.7rem;
+  color: #929295;
 }
 
-.leftSlider{
-    width: 40%;
-    position: relative;
-    img{
-        width: 100%;
-    }
+.leftSlider {
+  width: 40%;
+  position: relative;
+  img {
+    width: 100%;
+  }
 }
 
-.rightSlider{
-    width: 40%;
-    position: relative;
-    img{
-        width: 100%;
-    }
+.rightSlider {
+  width: 40%;
+  position: relative;
+  img {
+    width: 100%;
+  }
 }
 
-.abR{
-    background-color: #5b2ca2;
-    padding: 2rem 1rem;
-    position: absolute;
-    top: 45%;
-    right: 0;
-    color: white;
-    opacity: 0.6;
+.abR {
+  background-color: #5b2ca2;
+  padding: 2rem 1rem;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  color: white;
+  opacity: 0.6;
 }
 
-.abL{
-    background-color: #5b2ca2;
-    padding: 2rem 1rem;
-    position: absolute;
-    top: 45%;
-    color: white;
-    opacity: 0.6;
+.abL {
+  background-color: #5b2ca2;
+  padding: 2rem 1rem;
+  position: absolute;
+  top: 45%;
+  color: white;
+  opacity: 0.6;
 }
 
-.abL:hover{
-    background-color: gray
+.abL:hover {
+  background-color: gray;
 }
 
-.abR:hover{
-    background-color: gray
+.abR:hover {
+  background-color: gray;
 }
 
 h1 {
@@ -108,8 +164,8 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: #5b2ca2;
-  text-align:start;
-//   padding-right: 0.5rem;
+  text-align: start;
+  //   padding-right: 0.5rem;
 }
 
 button {
@@ -125,6 +181,6 @@ button {
 button:hover {
   background-color: white;
   color: #5b2ca2;
-  border: 2px solid grey
+  border: 2px solid grey;
 }
 </style>
