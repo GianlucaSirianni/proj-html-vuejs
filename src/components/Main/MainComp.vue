@@ -37,6 +37,7 @@
         <div class="abR"><strong>&gt;</strong></div>
       </div>
     </div>
+    <MainSteps/>
   </div>
 </template>
 
@@ -44,6 +45,7 @@
 import OurProducts from "../Main/OurProducts.vue";
 import CorporateWeddings from "../Main/CorporateWeddings.vue";
 import FreshProduct from "../Main/FreshProduct.vue";
+import MainSteps from "../Main/MainSteps.vue";
 
 export default {
   name: "MainComp",
@@ -56,6 +58,7 @@ export default {
     OurProducts,
     CorporateWeddings,
     FreshProduct,
+    MainSteps,
   },
 };
 </script>
