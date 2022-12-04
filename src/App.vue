@@ -3,7 +3,7 @@
 
     <HeaderComp :itemsNav="navItems"/>
 
-    <MainComp :wedPic="weddingPic"/>
+    <MainComp :wedPic="weddingPic" :freshSlide="sliderPic"/>
 
     <FooterComp />
 
@@ -78,6 +78,33 @@ export default {
               bigTxt: 'Wedding & Parties',
               btnTxt: 'Explore More'
             }
+          ],
+
+          sliderPic: [
+            {
+              url: 'choco-chip-cookies-400x510.jpg',
+              text: 'Choco Chip Cookies',
+              price: '$19.00 - $39.00'
+            },
+
+            {
+              url: 'strawberry-jam-cookies-400x510.jpg',
+              text: 'Strawberry Jam Cookies',
+              price: '$24.00 - $62.00'
+            },
+
+            {
+              url: 'strawberry-donut-400x510.jpg',
+              text: 'Strawberry Donut',
+              price: '$24.00 - $42.00'
+            },
+
+            {
+              url: 'perfect-macarons-400x510.jpg',
+              text: 'Perfect Macarons',
+              price: '$18.00 - $52.00'
+            },
+
           ]
 
       }
