@@ -39,7 +39,7 @@
 }
 
 .jumboInside{
-    width: 25%;
+    width: 30%;
     padding: 2rem;
     margin-left: 4rem;
 }
@@ -100,10 +100,11 @@ span{
 p{
     color: #929295;
     line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #5b2ca2;
@@ -115,7 +116,7 @@ h1{
 
 button{
     margin-top: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     color: #5b2ca2;
     border-color: white;
     background-color: white;
