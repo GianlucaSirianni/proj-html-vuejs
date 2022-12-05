@@ -49,7 +49,7 @@ export default {
 }
 
 img:hover {
-            transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .bg1 {

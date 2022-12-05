@@ -65,6 +65,7 @@ width: 50%;
     display: flex;
     align-content: center;
     justify-content: center;
+    
      .fa-instagram{
         margin-right: 10px;
      }
@@ -73,6 +74,7 @@ width: 50%;
   button:hover{
     color: #5b2ca2;
     background-color: white;
+    transition-duration: 0.5s;
   }
 
   h1 {
