@@ -68,26 +68,40 @@ export default {
   position: absolute;
   color: white;
   text-align: center;
-  font-size: 1.5rem;
   top: 45%;
   left: 35%;
-  background-color: black;
-  opacity: 0.7;
+  background-color: #bda2f3;
+  opacity: 0;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  
+  h6{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p{
+    font-size: 2rem;
+  }
 }
 
 .leftSlider:hover .txtCnt{
-  display: flex;
+  display: flex;  
 }
+
+
 
 .rightSlider:hover .txtCnt{
   display: flex;
 }
 
-
+.txtCnt:hover{
+  opacity: 0.7;
+  transition-duration: 1s;
+}
 
 .ourProducts {
   width: 100%;

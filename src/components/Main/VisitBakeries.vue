@@ -66,6 +66,7 @@ img:hover {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2rem;
+  color: #5b2ca2;
 }
 
 .infoContainer {
@@ -73,6 +74,7 @@ img:hover {
   display: flex;
   justify-content: space-around;
   align-content: center;
+  padding-bottom: 1rem;
 }
 
 button {
