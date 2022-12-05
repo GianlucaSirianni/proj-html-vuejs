@@ -109,10 +109,14 @@ export default {
 
 .prodDescription {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 .fresh {
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: #929295;
 }
 
@@ -161,7 +165,7 @@ export default {
 
 h1 {
   font-size: 2.2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   color: #5b2ca2;
   text-align: start;
@@ -169,13 +173,14 @@ h1 {
 }
 
 button {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem;
   color: white;
   border-color: #5b2ca2;
   background-color: #5b2ca2;
   border-style: none;
   border-radius: 5px;
+  width: 250px;
 }
 
 button:hover {
