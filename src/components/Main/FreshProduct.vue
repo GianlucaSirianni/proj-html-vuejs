@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
 
 div{
-    width: calc((100%/4) - 40px);
+    width: calc((100%/4) - 10px);
 }
 
 img{

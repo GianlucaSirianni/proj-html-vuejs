@@ -140,7 +140,7 @@ export default {
   background-color: #5b2ca2;
   padding: 2rem 1rem;
   position: absolute;
-  top: 35%;
+  top: 40%;
   right: 0;
   color: white;
   opacity: 0.6;
@@ -150,7 +150,7 @@ export default {
   background-color: #5b2ca2;
   padding: 2rem 1rem;
   position: absolute;
-  top: 35%;
+  top: 40%;
   color: white;
   opacity: 0.6;
 }

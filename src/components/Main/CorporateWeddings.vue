@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 img {
-  width: 750px;
+  width: 40vw;
 }
 
 .hover {
