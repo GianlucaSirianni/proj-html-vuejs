@@ -48,6 +48,9 @@
         :baker="elem"
       />
     </div>
+    <div class="stayTContainer">
+      <StayTouch/>
+    </div>
   </div>
 </template>
 
@@ -57,6 +60,7 @@ import CorporateWeddings from "../Main/CorporateWeddings.vue";
 import FreshProduct from "../Main/FreshProduct.vue";
 import MainSteps from "../Main/MainSteps.vue";
 import VisitBakeries from "../Main/VisitBakeries.vue";
+import StayTouch from "../Main/StayTouch.vue";
 
 export default {
   name: "MainComp",
@@ -72,12 +76,18 @@ export default {
     FreshProduct,
     MainSteps,
     VisitBakeries,
+    StayTouch,
   },
 };
 </script>
 
 <style lang="scss" scoped>
 
+.stayTContainer{
+  width: 90%;
+  margin: auto;
+  margin-top: 7rem;
+}
 .visitBakCont{
   width: 90%;
   margin: auto;
