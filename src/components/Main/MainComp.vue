@@ -87,16 +87,19 @@ export default {
 
 .leftFresh {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   p {
     color: #929295;
     line-height: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #5b2ca2;
