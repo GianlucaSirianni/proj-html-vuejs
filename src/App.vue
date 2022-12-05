@@ -3,7 +3,7 @@
 
     <HeaderComp :itemsNav="navItems"/>
 
-    <MainComp :wedPic="weddingPic" :freshSlide="sliderPic"/>
+    <MainComp :wedPic="weddingPic" :freshSlide="sliderPic" :bakery="visitBakeries"/>
 
     <FooterComp />
 
@@ -105,6 +105,20 @@ export default {
               price: '$18.00 - $52.00'
             },
 
+          ],
+
+          visitBakeries: [
+            {
+              pict: 'new-york-bk-600x397.jpg',
+              location: 'New York',
+              bg: 'bg1'
+            },
+
+            {
+              pict: 'london-bk-600x397.jpg',
+              location: 'London',
+              bg: 'bg2',
+            },
           ]
 
       }

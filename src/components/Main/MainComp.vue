@@ -25,19 +25,29 @@
         <div class="centerBtn">
           <button>Shop All Products</button>
         </div>
-        
       </div>
       <div class="rightFresh">
-        <FreshProduct 
-        v-for="(elem, index) in freshSlide"
-        :key="index"
-        :slide="elem"
+        <FreshProduct
+          v-for="(elem, index) in freshSlide"
+          :key="index"
+          :slide="elem"
         />
         <div class="abL"><strong>&lt;</strong></div>
         <div class="abR"><strong>&gt;</strong></div>
       </div>
     </div>
-    <MainSteps/>
+    <MainSteps />
+    <div class="locations">
+      <p>LOCATIONS</p>
+      <h1>Visit our Bakeries</h1>
+    </div>
+    <div class="visitBakCont">
+      <VisitBakeries
+        v-for="(elem, index) in bakery"
+        :key="index"
+        :baker="elem"
+      />
+    </div>
   </div>
 </template>
 
@@ -46,12 +56,14 @@ import OurProducts from "../Main/OurProducts.vue";
 import CorporateWeddings from "../Main/CorporateWeddings.vue";
 import FreshProduct from "../Main/FreshProduct.vue";
 import MainSteps from "../Main/MainSteps.vue";
+import VisitBakeries from "../Main/VisitBakeries.vue";
 
 export default {
   name: "MainComp",
   props: {
     wedPic: Array,
     freshSlide: Array,
+    bakery: Array,
   },
 
   components: {
@@ -59,11 +71,18 @@ export default {
     CorporateWeddings,
     FreshProduct,
     MainSteps,
+    VisitBakeries,
   },
 };
 </script>
 
 <style lang="scss" scoped>
+
+.visitBakCont{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
 .corpTxt {
   text-align: center;
   h1 {
@@ -79,7 +98,7 @@ export default {
   }
 }
 
-.freshness{
+.freshness {
   width: 90%;
   margin: auto;
   display: flex;
@@ -106,7 +125,7 @@ export default {
     text-align: center;
   }
 
-  .centerBtn{
+  .centerBtn {
     width: 100%;
     text-align: center;
     // display: flex;
@@ -127,11 +146,10 @@ export default {
     background-color: white;
     color: #5b2ca2;
     border: 2px solid gray;
-    
   }
 }
 
-.rightFresh{
+.rightFresh {
   width: 75%;
   margin: auto;
   display: flex;
@@ -166,13 +184,25 @@ export default {
   background-color: gray;
 }
 
-
-
 .corpWed {
   width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   margin-bottom: 8rem;
+}
+
+.locations {
+  text-align: center;
+  p {
+    color: grey;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    color: #5b2ca2;
+    margin-bottom: 2rem;
+  }
 }
 </style>
