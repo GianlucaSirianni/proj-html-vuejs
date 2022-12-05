@@ -100,8 +100,8 @@ export default {
 
   h1 {
     font-size: 2.3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     color: #5b2ca2;
     text-align: center;
   }
@@ -114,7 +114,7 @@ export default {
   }
 
   button {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
     color: white;
     border-color: white;
