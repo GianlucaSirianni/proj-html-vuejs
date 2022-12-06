@@ -25,8 +25,7 @@
           <img src="../../assets/img/bakery-process-2.jpg" alt="" />
         </div>
 
-        <div class="sec2Overlay">
-        </div>
+        <div class="sec2Overlay"></div>
 
         <h1 class="titleSec2">We Start Baking</h1>
         <h2 class="numSec2">02</h2>
@@ -43,9 +42,15 @@
       </div>
       <div class="sec2-1">
         <div class="sec2-1Txt">
-          <p>DON'T JUST TAKE OUR WORD FOR IT</p>
-          <h1>"Finally found an alternative to mass produced products. Something that incorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity"</h1>
-          <p>Rachel Cooper, Founder</p>
+          <div class="textCornice">
+            <p>DON'T JUST TAKE OUR WORD FOR IT</p>
+            <h1>
+              "Finally found an alternative to mass produced products. Something
+              that incorporates real organic ingredients, nutrient dense
+              wellness while promoting sustainability and activity"
+            </h1>
+            <p>Rachel Cooper, Founder</p>
+          </div>
         </div>
       </div>
     </div>
@@ -176,40 +181,43 @@ export default {
   right: 60px;
 }
 
-.sec1{
+.sec1 {
   width: 50%;
   position: relative;
 }
-.sec2-1{
-  
+.sec2-1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 50%;
   height: 750px;
-  background-color: #F4EFF4;
+  background-color: #f4eff4;
   padding: 2rem;
-  h1{
+  h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #5b2ca2;
   }
 
-  p{
+  p {
     color: gray;
   }
 }
 
-.sec2-1Txt{
+
+.sec2-1Txt {
   padding: 6rem 6rem 6rem 6rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sec2{
+.sec2 {
   position: relative;
 }
 
-p{
+p {
   font-size: 1.3rem;
 }
 
@@ -217,7 +225,6 @@ p{
   color: lightgray;
   font-size: 0.9rem;
 }
-
 
 .sec3Container {
   width: 100%;
@@ -276,6 +283,4 @@ p{
   bottom: 100px;
   left: 60px;
 }
-
-
 </style>
