@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 // import specific icons /
 import {faCartShopping, faDollarSign, faFolder, faMagnifyingGlass,} from '@fortawesome/free-solid-svg-icons';
 
-import {faSquareInstagram, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faSquareInstagram, faInstagram, faTwitter, faFacebook, faPinterest} from '@fortawesome/free-brands-svg-icons'
 
 // Import icone regular /
 import {} from '@fortawesome/free-regular-svg-icons';
@@ -22,6 +22,9 @@ library.add(faFolder);
 library.add(faDollarSign);
 library.add(faSquareInstagram);
 library.add(faInstagram);
+library.add(faTwitter);
+library.add(faFacebook);
+library.add(faPinterest);
 
 
 // add font awesome icon component */

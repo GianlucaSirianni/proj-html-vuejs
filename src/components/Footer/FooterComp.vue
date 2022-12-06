@@ -31,12 +31,14 @@
         </div>
       </div>
     </div>
+    <BottomFooter/>
   </div>
 </template>
 
 <script>
 import CallAction from "../Footer/CallAction.vue";
 import NavFooter from "../Footer/NavFooter.vue";
+import BottomFooter from "../Footer/BottomFooter.vue";
 export default {
   name: "FooterComp",
   props: {
@@ -46,6 +48,7 @@ export default {
   components: {
     CallAction,
     NavFooter,
+    BottomFooter,
   },
 };
 </script>
@@ -82,6 +85,7 @@ export default {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 800px;
 }
 
@@ -96,9 +100,35 @@ export default {
     background-color: #b17dff;
     border-radius: 50px;
     margin-left: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+
+.inputBtn{
+    input{
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    button {
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    padding: 1rem;
+    color: white;
+    border-color: white;
+    background-color: #5b2ca2;
+    border-style: none;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: white;
+    color: #5b2ca2;
+    border: 2px solid gray;
   }
 }
 
