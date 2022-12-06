@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 .genContainer {
   width: 50%;
-
+   
   img {
     width: 100%;
   }

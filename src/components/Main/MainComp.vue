@@ -150,6 +150,7 @@ export default {
     background-color: #5b2ca2;
     border-style: none;
     border-radius: 5px;
+    width: 170px;
   }
 
   button:hover {
@@ -203,6 +204,7 @@ export default {
 }
 
 .locations {
+  margin-top: 8rem;
   text-align: center;
   p {
     color: grey;

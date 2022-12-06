@@ -30,7 +30,7 @@
 
         <h1 class="titleSec2">We Start Baking</h1>
         <h2 class="numSec2">02</h2>
-        <div class="textCard">
+        <div class="textCard2">
           <p class="grey">SWEET & DELICIOUS</p>
           <br />
           <p>
@@ -56,7 +56,7 @@
       <div class="sec3Overlay"></div>
       <h1 class="titleSec3">Delivered to your home</h1>
       <h2 class="numSec3">03</h2>
-      <div class="textCard">
+      <div class="textCard2">
         <p class="grey">BAKED TO ORDER & GIFT WRAPPED</p>
         <br />
         <p>
@@ -111,7 +111,7 @@ export default {
 .titleSec1 {
   color: white;
   font-size: 3.5rem;
-  width: 40%;
+  width: 30%;
   position: absolute;
   top: 60px;
   left: 60px;
@@ -162,7 +162,7 @@ export default {
 .titleSec2 {
   color: white;
   font-size: 3.5rem;
-  width: 40%;
+  width: 70%;
   position: absolute;
   top: 60px;
   left: 60px;
@@ -190,8 +190,8 @@ export default {
   background-color: #F4EFF4;
   padding: 2rem;
   h1{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: #5b2ca2;
   }
 
@@ -201,7 +201,7 @@ export default {
 }
 
 .sec2-1Txt{
-  padding: 4rem;
+  padding: 6rem 6rem 6rem 6rem;
   font-size: 2rem;
 }
 
@@ -209,9 +209,15 @@ export default {
   position: relative;
 }
 
+p{
+  font-size: 1.3rem;
+}
+
 .grey {
   color: lightgray;
+  font-size: 0.9rem;
 }
+
 
 .sec3Container {
   width: 100%;
@@ -261,6 +267,14 @@ export default {
   position: absolute;
   bottom: 100px;
   right: 60px;
+}
+
+.textCard2 {
+  color: lightgray;
+  width: 30%;
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
 }
 
 

@@ -12,13 +12,16 @@
       <font-awesome-icon icon="fa-brands fa-facebook" />
       <font-awesome-icon icon="fa-brands fa-pinterest" />
     </div>
+
   </div>
 </template>
 
 <script>
 export default {
   name: "BottomFooter",
+
 };
+
 </script>
 
 <style lang="scss" scoped>

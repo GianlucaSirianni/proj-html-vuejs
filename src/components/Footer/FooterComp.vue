@@ -32,6 +32,7 @@
       </div>
     </div>
     <BottomFooter/>
+    <ToTop/>
   </div>
 </template>
 
@@ -39,6 +40,7 @@
 import CallAction from "../Footer/CallAction.vue";
 import NavFooter from "../Footer/NavFooter.vue";
 import BottomFooter from "../Footer/BottomFooter.vue";
+import ToTop from "../Footer/ToTop.vue";
 export default {
   name: "FooterComp",
   props: {
@@ -49,6 +51,7 @@ export default {
     CallAction,
     NavFooter,
     BottomFooter,
+    ToTop,
   },
 };
 </script>

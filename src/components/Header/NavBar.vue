@@ -23,7 +23,7 @@ export default {
 
 a{
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .aContainer{

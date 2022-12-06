@@ -3,7 +3,7 @@
         <div class="jumboInside">
             <p class="fresh">FRESH & TASTY BAKERY EVERY DAY</p>
             <h1>The Perfect Fresh Bread</h1>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, culpa? Quo sunt, pariatur consequatur commodi voluptate dolorem aliquam odio.</p>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia expedita explicabo rem perferendis amet ipsam aperiam veritatis inventore, nihil, velit ut ad quod? Optio quod rem fugit quam cupiditate cumque.</p>
             <button>Explore Our Products</button>
             <div class="absDemos">
                 <div class="ciaparat">
@@ -111,11 +111,12 @@ h1{
 }
 
 .fresh{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 button{
-    margin-top: 1rem;
+    font-size: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
     color: #5b2ca2;
     border-color: white;

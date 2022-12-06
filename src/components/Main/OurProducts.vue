@@ -2,7 +2,7 @@
   <div class="ourProducts">
     <div class="ourProductsContainer">
       <div class="prodDescription">
-        <p class="fresh">Our Products</p>
+        <p class="fresh">OUR PRODUCTS</p>
         <h1>
           All our delectable pastries are backed fresh in our Kitchen every
           morning and are made with all-natural, all-organic ingredients.
@@ -70,7 +70,7 @@ export default {
   text-align: center;
   top: 45%;
   left: 35%;
-  background-color: #bda2f3;
+  background-color: black;
   opacity: 0;
   top: 0;
   left: 0;
@@ -99,7 +99,7 @@ export default {
 }
 
 .txtCnt:hover{
-  opacity: 0.7;
+  opacity: 0.6;
   transition-duration: 1s;
 }
 
@@ -187,6 +187,7 @@ h1 {
 }
 
 button {
+  font-size: 1rem;
   margin-top: 2rem;
   padding: 1rem;
   color: white;
@@ -194,7 +195,7 @@ button {
   background-color: #5b2ca2;
   border-style: none;
   border-radius: 5px;
-  width: 250px;
+  width: 170px;
 }
 
 button:hover {

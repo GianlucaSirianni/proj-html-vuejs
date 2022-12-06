@@ -83,6 +83,10 @@ width: 50%;
     font-size: 3rem;
     color: #5b2ca2;
   }
+
+  p{
+    color: gray;
+  }
 }
 
 .upR {
