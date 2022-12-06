@@ -74,6 +74,7 @@ width: 50%;
   button:hover{
     color: #5b2ca2;
     background-color: white;
+    border: 2px solid #5b2ca2;
     transition-duration: 0.5s;
   }
 
