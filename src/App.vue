@@ -5,7 +5,7 @@
 
     <MainComp :wedPic="weddingPic" :freshSlide="sliderPic" :bakery="visitBakeries"/>
 
-    <FooterComp />
+    <FooterComp :itemsFooter="navFooter"/>
 
     
 
@@ -119,7 +119,39 @@ export default {
               location: 'London',
               bg: 'bg2',
             },
-          ]
+          ],
+
+          navFooter: [
+
+          {
+            name: 'Shop',
+            url: 'www.google.com'
+          },
+          {
+            name: 'About',
+            url: 'www.google.com'
+          },
+          {
+            name: 'Gallery',
+            url: 'www.google.com'
+          },
+          {
+            name: 'Locations',
+            url: 'www.google.com'
+          },
+          {
+            name: 'Journal',
+            url: 'www.google.com'
+          },
+          {
+            name: 'Contact',
+            url: 'www.google.com'
+          },
+          {
+            name: 'Orders',
+            url: 'www.google.com'
+          },
+        ],
 
       }
 
