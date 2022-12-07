@@ -65,6 +65,8 @@ button {
   background-color: #5b2ca2;
   border-style: none;
   border-radius: 5px;
+  width: 170px;
+  font-size: 1rem;
 }
 
 button:hover {

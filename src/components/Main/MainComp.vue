@@ -103,7 +103,7 @@ export default {
   }
 
   p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: #929295;
   }
 }
